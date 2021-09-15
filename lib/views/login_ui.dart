@@ -179,6 +179,107 @@ class _LoginUIState extends State<LoginUI> {
                   obscureText: true,
                 ),
               ),
+              Padding(
+                padding: const EdgeInsets.only(
+                  left: 40.0,
+                  right: 40.0,
+                  top: 10.0,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Expanded(
+                      child: TextButton(
+                        onPressed: () {},
+                        child: Text(
+                          'ลงทะเบียน',
+                          style: TextStyle(
+                            fontFamily: 'kanit',
+                            color: Color(0xFF101276),
+                          ),
+                        ),
+                        style: TextButton.styleFrom(
+                          alignment: Alignment.centerLeft,
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: TextButton(
+                        onPressed: () {},
+                        child: Text(
+                          'ลืมรหัสผ่าน',
+                          style: TextStyle(
+                            fontFamily: 'kanit',
+                            color: Colors.red[700],
+                          ),
+                        ),
+                        style: TextButton.styleFrom(
+                          alignment: Alignment.centerRight,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
+                  left: 40,
+                  right: 40,
+                ),
+                child: OutlinedButton(
+                  onPressed: () {},
+                  child: Text(
+                    'เข้าใช้งาน',
+                    style: TextStyle(
+                        fontFamily: 'kanit', color: Color(0xff101276)),
+                  ),
+                  style: OutlinedButton.styleFrom(
+                      fixedSize: Size(MediaQuery.of(context).size.width, 50),
+                      backgroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(
+                          50.0,
+                        ),
+                      ),
+                      side: BorderSide(color: Color(0xFF101276))),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
+                  left: 40.0,
+                  right: 40.0,
+                  top: 20.0,
+                ),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        height: 1.0,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        left: 10.0,
+                        right: 10.0,
+                      ),
+                      child: Text(
+                        'หรือ',
+                        style: TextStyle(
+                          fontFamily: 'kanit',
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(
+                        height: 1.0,
+                        color: Colors.grey,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
