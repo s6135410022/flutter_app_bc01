@@ -1,16 +1,5 @@
 # flutter_app_bc01
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br>
+ หน้าเมนู
+ <br>
+ <img src="https://user-images.githubusercontent.com/89514724/134308134-f6c82cc0-5dd9-430a-9fc6-755ab94cddc5.jpg"height=500>
